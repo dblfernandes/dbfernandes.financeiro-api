@@ -56,11 +56,18 @@
 		</dependency>
 		
 		<!--Pega a causa da exceção  -->
-		<!-- <dependency> -->
-			<!-- <groupId>org.apache.commons</groupId> -->
-			<!-- <artifactId>commons-lang3</artifactId> -->
-			<!-- <version>3.11</version> -->
-		<!-- </dependency> -->
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-lang3</artifactId>
+		    <version>3.12.0</version>
+		</dependency>
+		
+		<!-- Metamodel - Gera classes com atributos staticos para representar o MODEL -->
+	  <dependency>
+	      <groupId>org.hibernate</groupId>
+	      <artifactId>hibernate-jpamodelgen</artifactId>
+	   </dependency>
 		
 	</dependencies>
 
